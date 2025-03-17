@@ -100,5 +100,5 @@ def phishing_scanner():
     write_report(url, results)
 
 # Run the scanner
-if _name_ == "_main_":
+if __name__ == "__main__":
     phishing_scanner()
